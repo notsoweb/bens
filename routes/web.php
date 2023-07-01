@@ -5,7 +5,6 @@ use App\Http\Controllers\Dashboard\HistoryLogController;
 use App\Http\Controllers\Dashboard\IndexController;
 use App\Http\Controllers\Dashboard\NotificationController;
 use App\Http\Controllers\Developer\RoleController;
-use App\Http\Controllers\Example\IndexController as ExampleIndexController;
 use Illuminate\Support\Facades\Route;
 
 /**
@@ -73,20 +72,4 @@ Route::prefix('developer')->name('developer.')->middleware([
     config('jetstream.auth_session')
 ])->group(function () {
     Route::resource('roles', RoleController::class);
-});
-
-/**
- * Elementos de la plantilla
- * 
- * Estos son elementos que existen y pueden ser usados en la plantilla, vienen ejemplos de uso.
- * 
- * Estas rutas pueden ser comentadas o eliminadas cuando se finalice un proyecto. Por default estan ocultas
- * en el dashboard.
- */
-Route::prefix('examples')->name('examples.')->middleware([
-    'auth:sanctum',
-    'verified',
-    config('jetstream.auth_session')
-])->group(function () {
-    Route::get('/', [ExampleIndexController::class, 'index'])->name('index');
 });

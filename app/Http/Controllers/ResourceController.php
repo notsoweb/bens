@@ -9,7 +9,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Log;
 
 /**
- * Permite traer recursos estaticos que son solo para consulta
+ * Permite traer recursos estáticos que son solo para consulta
  * 
  * Retorna la información necesaria para los select, listas o recursos determinados
  * 
