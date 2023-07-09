@@ -8,6 +8,7 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
 
 import Notify from './notify';
 import Swal from 'sweetalert2'
+import VueSplide from '@splidejs/vue-splide';
 import { SessionFresh } from './sessionFresh';
 import { TailwindScreen } from './tailwindScreen';
 import { i18n, t } from '@/Lang/i18n';
@@ -38,6 +39,7 @@ createInertiaApp({
             .use(plugin)
             .use(ZiggyVue, Ziggy)
             .use(i18n)
+            .use(VueSplide)
             .mount(el);
     }
 });

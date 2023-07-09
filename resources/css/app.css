@@ -60,6 +60,22 @@ background: #d4d4d4;
   @apply flex w-fit px-1.5 py-0.5 rounded-md font-medium text-white bg-secondary dark:bg-secondary-dark hover:text-secondary hover:bg-primary dark:hover:bg-primary-dark hover:border-secondary transition cursor-pointer;
 }
 
+.cx-auto {
+  @apply w-full px-2 sm:px-[calc((100vw-624px)/2)] md:px-[calc((100vw-752px)/2)] lg:px-[calc((100vw-1008px)/2)] xl:px-[calc((100vw-1264px)/2)] 2xl:px-[calc((100vw-1520px)/2)]
+}
+
+.cl-auto {
+  @apply pl-2 sm:pl-[calc((100vw-624px)/2)] md:pl-[calc((100vw-752px)/2)] lg:pl-[calc((100vw-1008px)/2)] xl:pl-[calc((100vw-1264px)/2)] 2xl:pl-[calc((100vw-1520px)/2)]
+}
+
+.cr-auto {
+  @apply px-2 sm:pr-[calc((100vw-624px)/2)] md:pr-[calc((100vw-752px)/2)] lg:pr-[calc((100vw-1008px)/2)] xl:pr-[calc((100vw-1264px)/2)] 2xl:pr-[calc((100vw-1520px)/2)]
+}
+
+.circle-btn {
+  @apply flex w-7 h-7 justify-center items-center rounded-full bg-gray-300 bg-opacity-20 hover:bg-opacity-30 cursor-pointer transition-all duration-300;
+}
+
 .header-icon {
   @apply hover:text-yellow-500 focus:text-yellow-600 hover:scale-105 hover:transition hover:duration-100;
 }

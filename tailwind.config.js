@@ -19,6 +19,8 @@ module.exports = {
                 'google-icon-outlined':['Material Symbols Outlined']
             },
             colors: {
+                'app-primary':'#3559AB',
+                'app-secondary':'#35ABA8',
                 'page':'#E5E7EB',
                 'page-on':'#4B5563',
                 'page-dark':'#000',

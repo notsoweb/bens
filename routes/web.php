@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\AppController;
 use App\Http\Controllers\Dashboard\HistoryLogController;
 use App\Http\Controllers\Dashboard\IndexController;
 use App\Http\Controllers\Dashboard\NotificationController;
@@ -12,7 +13,14 @@ use Illuminate\Support\Facades\Route;
  * 
  * Rutas accesibles por todos los usuarios y no usuarios
  */
-Route::redirect('/', '/login');
+Route::redirect('/', '/app');
+
+/**
+ * Aplicación base
+ */
+Route::prefix('app')->name('app')->group(function () {
+    Route::get('/', [AppController::class, 'index'])->name('index');
+});
 
 /**
  * Rutas del Dashboard

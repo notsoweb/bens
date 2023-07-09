@@ -3,6 +3,7 @@ import { computed } from 'vue';
 
 const props = defineProps({
     name:  String,
+    title: String,
     type: {
         default: 'fab',
         type: String
@@ -15,5 +16,7 @@ const classes = computed(() => {
 </script>
 
 <template>
-    <i :class="classes"></i>
+    <button :title="title" type="button">
+        <i :class="classes"></i>
+    </button>
 </template>
