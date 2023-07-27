@@ -3,6 +3,7 @@ import { Head, Link } from '@inertiajs/vue3';
 
 import AwsIcon    from '@/Components/Shared/AwsIcon.vue'
 import GoogleIcon from '@/Components/Shared/GoogleIcon.vue'
+import Item from '@/Components/App/Skeleton/Header/Item.vue'
 
 defineProps({
     title: String,
@@ -27,31 +28,21 @@ defineProps({
             </header>
             <nav class="bg-app-secondary">
                 <ul class="cx-auto flex items-center text-white">
-                    <li>
-                        <Link class="py-4 px-4 bg-app-primary">
-                            Inicio
-                        </Link>
-                    </li>
-                    <li class="py-4">
-                        <Link class="py-4 px-4">
+                    <Item :href="route('app.index')">
+                        Inicio
+                    </Item>
+                    <Item :href="route('app.about-us.presentation')">
                         Nosotros
-                        </Link>
-                    </li>
-                    <li class="py-4">
-                        <Link class="py-4 px-4">
-                            Servicios
-                        </Link>
-                    </li>
-                    <li class="py-4">
-                        <Link class="py-4 px-4">
-                            Proyectos
-                        </Link>
-                    </li>
-                    <li class="py-4">
-                        <Link class="py-4 px-4">
-                        Contáctanos
-                        </Link>
-                    </li>
+                    </Item>
+                    <Item :href="route('app.services.index')">
+                        Servicios
+                    </Item>
+                    <Item :href="route('app.projects.index')">
+                        Proyectos
+                    </Item>
+                    <Item :href="route('app.contact')">
+                        Contacto
+                    </Item>
                 </ul>
             </nav>
             <main class="cx-auto flex flex-col items-center">

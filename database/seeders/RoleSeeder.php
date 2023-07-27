@@ -44,6 +44,30 @@ class RoleSeeder extends Seeder
 
             $usersConfig = $this->onPermission('users.config', 'Usuarios: Configuraciones adicionales');
 
+            // Permisos para clientes
+            [
+                $clientsIndex,
+                $clientsCreate,
+                $clientsEdit,
+                $clientsDestroy
+            ] = $this->onCRUD('clients', 'Clientes:');
+
+            // Permisos para servicios
+            [
+                $servicesIndex,
+                $servicesCreate,
+                $servicesEdit,
+                $servicesDestroy
+            ] = $this->onCRUD('services', 'Servicios:');
+
+            // Permisos para proyectos
+            [
+                $projectsIndex,
+                $projectsCreate,
+                $projectsEdit,
+                $projectsDestroy
+            ] = $this->onCRUD('projects', 'Proyectos:');
+
             /**
              * Roles con asignación de permisos
              */
@@ -60,10 +84,23 @@ class RoleSeeder extends Seeder
                 'description' => 'Administrador del sistema'
             ])->givePermissionTo(
                 $historiesIndex,
+                $rolesIndex,
                 $usersIndex,
                 $usersCreate,
                 $usersEdit,
-                $usersDestroy
+                $usersDestroy,
+                $clientsIndex,
+                $clientsCreate,
+                $clientsEdit,
+                $clientsDestroy,
+                $servicesIndex,
+                $servicesCreate,
+                $servicesEdit,
+                $servicesDestroy,
+                $projectsIndex,
+                $projectsCreate,
+                $projectsEdit,
+                $projectsDestroy
             );
 
              // Role de supervisor (solo lectura)
@@ -74,12 +111,15 @@ class RoleSeeder extends Seeder
                 $historiesIndex,
                 $rolesIndex,
                 $usersIndex,
+                $clientsIndex,
+                $servicesIndex,
+                $projectsIndex
             );
         });
     }
     
     /**
-     * Permite crear un permiso albitrario
+     * Permite crear un permiso arbitrario
      * 
      * @param string $code Código del permiso que será usado para programar
      * @param string $description Descripción del permiso
