@@ -3,7 +3,7 @@
  * @copyright Copyright (c) 2023 Notsoweb (https://notsoweb.com) - All rights reserved.
  */
 
-use App\Http\Controllers\Controller;
+use Notsoweb\Core\Http\Controllers\VueController;
 
 /**
  * Servicios
@@ -12,13 +12,21 @@ use App\Http\Controllers\Controller;
  * 
  * @version 1.0.0
  */
-class ServiceController extends Controller
+class ServiceController extends VueController
 {
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->vueRoot('app.services');
+    }
+
     /**
      * Lista de servicios
      */
     public function index()
     {
-        
+        return $this->vuew('index');
     }
 }

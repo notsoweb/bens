@@ -44,7 +44,7 @@ const options2 = ref({
                 <img class="w-full h-[25rem] object-cover" src="/storage/images/slide-pic5.png" alt="Sample 2">
               </SplideSlide>
             </Splide>
-            <Link class="py-4 px-8 -m-10 w-fit bg-[#FF0045] text-xl text-white uppercase z-10">
+            <Link :href="route('app.about.index')" class="py-4 px-8 -m-10 w-fit bg-[#FF0045] text-xl text-white uppercase z-10">
                 Conoce más
             </Link>
         </div>
@@ -60,7 +60,7 @@ const options2 = ref({
                     name="facebook-f"
                 />
             </div>
-            <div class="bg-[url(storage/images/conocenos3.png)] bg-cover"></div>
+            <div class="bg-cover" style="background-image: url(storage/images/conocenos3.png);"></div>
             <div class="flex flex-col items-center space-y-2 bg-[#FF773B] text-white py-8">
                 <div class="uppercase text-center">
                     <p class="text-xs">Equipo de</p>
@@ -68,7 +68,7 @@ const options2 = ref({
                 </div>
                 <button class="py-1 px-4 uppercase text-xs bg-[#FFCE00] rounded-xl">Contactanos</button>
             </div>
-            <div class="bg-[url(storage/images/servicios4.png)] bg-cover"></div>
+            <div class="bg-cover" style="background-image: url(storage/images/servicios4.png);"></div>
             <div class="flex flex-col items-center space-y-2 bg-[#3378E8] text-white py-8">
                 <div class="uppercase text-center">
                     <p class="text-xs">Acciones</p>
@@ -76,7 +76,7 @@ const options2 = ref({
                 </div>
                 <button class="py-1 px-4 uppercase text-xs bg-[#2FD8D3] rounded-xl">Contactanos</button>
             </div>
-            <div class="bg-[url(storage/images/pic-home3.png)] bg-cover"></div>
+            <div class="bg-cover" style="background-image: url(storage/images/pic-home3.png);"></div>
         </div>
         <div class="mb-8 mt-16 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div class="flex flex-col items-center">
@@ -99,7 +99,7 @@ const options2 = ref({
                 <p>de beneficiarios</p>
             </div>
         </div>
-        <div class="flex flex-col my-4 py-32 w-full items-center text-center space-y-8 text-white bg-[url(storage/images/serv-prod-home1.png)] bg-cover">
+        <div class="flex flex-col my-4 py-32 w-full items-center text-center space-y-8 text-white bg-cover" style="background-image: url(storage/images/serv-prod-home1.png);">
             <div class="space-y-4">
                 <h4>BENS ELECTRIC</h4>
                 <p>Te brindamos los mejores servicios con la mejor calidad y un equipo de especialistas.</p>

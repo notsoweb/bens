@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\App\AboutController;
 use App\Http\Controllers\App\ProjectController;
 use App\Http\Controllers\App\ServiceController;
 use App\Http\Controllers\AppController;
@@ -12,35 +13,28 @@ use App\Http\Controllers\Developer\RoleController;
 use Illuminate\Support\Facades\Route;
 
 /**
- * Rutas generales/publicas
- * 
- * Rutas accesibles por todos los usuarios y no usuarios
- */
-Route::redirect('/', '/app');
-
-/**
  * Aplicación base
  */
-Route::prefix('app')->name('app.')->group(function () {
+Route::name('app.')->group(function () {
     Route::get('/', [AppController::class, 'index'])->name('index');
     
-    Route::prefix('nosotros')->name('about-us.')->group(function (){
-        Route::get('/presentacion', [AppController::class, 'aboutUsPresentation'])->name('presentation');
-        Route::get('/historia', [AppController::class, 'aboutUsHistory'])->name('history');
-        Route::get('/mision', [AppController::class, 'aboutUsMission'])->name('mission');
-        Route::get('/valores', [AppController::class, 'aboutUsValues'])->name('values');
-        Route::get('/resena', [AppController::class, 'aboutUsReview'])->name('review');
+    Route::prefix('nosotros')->name('about.')->group(function (){
+        Route::get('/', [AboutController::class, 'index'])->name('index');
+        Route::get('/historia', [AboutController::class, 'history'])->name('history');
+        Route::get('/mision', [AboutController::class, 'mission'])->name('mission');
+        Route::get('/valores', [AboutController::class, 'values'])->name('values');
+        Route::get('/resena', [AboutController::class, 'review'])->name('review');
     });
     
-    Route::prefix('services')->name('services.')->group(function() {
-        Route::get('/', [ServiceController::class, 'services'])->name('index');
+    Route::prefix('servicios')->name('services.')->group(function() {
+        Route::get('/', [ServiceController::class, 'index'])->name('index');
     });
     
     Route::prefix('proyectos')->name('projects.')->group(function() {
         Route::get('/', [ProjectController::class, 'index'])->name('index');
     });
 
-    Route::get('/contacto', [AppController::class, 'contact'])->name('contact');
+    Route::get('contacto', [AppController::class, 'contact'])->name('contact');
 });
 
 /**

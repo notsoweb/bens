@@ -31,7 +31,7 @@ defineProps({
                     <Item :href="route('app.index')">
                         Inicio
                     </Item>
-                    <Item :href="route('app.about-us.presentation')">
+                    <Item :href="route('app.about.index')">
                         Nosotros
                     </Item>
                     <Item :href="route('app.services.index')">
