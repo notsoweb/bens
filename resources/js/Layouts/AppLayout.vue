@@ -45,7 +45,7 @@ defineProps({
                     </Item>
                 </ul>
             </nav>
-            <main class="cx-auto flex flex-col items-center">
+            <main class="bg-white flex flex-col cx-auto p-2 my-16 py-8 items-center">
                 <slot />
             </main>
         </div>
