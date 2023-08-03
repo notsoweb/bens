@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\App\AboutController;
+use App\Http\Controllers\App\DonationController;
 use App\Http\Controllers\App\ProjectController;
 use App\Http\Controllers\App\ServiceController;
 use App\Http\Controllers\AppController;
@@ -35,6 +36,7 @@ Route::name('app.')->group(function () {
     });
 
     Route::get('contacto', [AppController::class, 'contact'])->name('contact');
+    Route::get('donacion', [DonationController::class, 'index'])->name('donation');
 });
 
 /**

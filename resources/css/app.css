@@ -93,5 +93,5 @@ background: #d4d4d4;
 }
 
 .table-item {
-  @apply px-4 py-1 text-sm text-center;
+  @apply px-4 py-1 text-sm text-center
 }
