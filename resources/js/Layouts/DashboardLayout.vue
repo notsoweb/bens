@@ -35,7 +35,7 @@ onMounted(()=> {
     <Head
         :title="title"
     />
-    <div class="flex w-full h-screen">
+    <div class="flex w-full h-screen md:bg-page dark:md:bg-page-dark">
         <div 
             id="sidebar"
             class="fixed w-fit h-screen transition-all duration-300 z-10"
