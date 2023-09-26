@@ -44,7 +44,7 @@ const options2 = ref({
                 <img class="w-full h-[25rem] object-cover" src="/storage/images/slide-pic5.png" alt="Sample 2">
               </SplideSlide>
             </Splide>
-            <Link :href="route('app.about.index')" class="py-4 px-8 -m-10 w-fit bg-[#FF0045] text-xl text-white uppercase z-10">
+            <Link :href="route('app.about')" class="py-4 px-8 -m-10 w-fit bg-[#FF0045] text-xl text-white uppercase z-10">
                 Conoce más
             </Link>
         </div>

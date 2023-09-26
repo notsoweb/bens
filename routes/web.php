@@ -19,21 +19,25 @@ use Illuminate\Support\Facades\Route;
 Route::name('app.')->group(function () {
     Route::get('/', [AppController::class, 'index'])->name('index');
     
+    Route::get('/about', [AboutController::class, 'index'])->name('about');
     Route::prefix('nosotros')->name('about.')->group(function (){
-        Route::get('/', [AboutController::class, 'index'])->name('index');
         Route::get('/historia', [AboutController::class, 'history'])->name('history');
         Route::get('/mision', [AboutController::class, 'mission'])->name('mission');
         Route::get('/valores', [AboutController::class, 'values'])->name('values');
         Route::get('/resena', [AboutController::class, 'review'])->name('review');
     });
     
+    Route::get('servicios', [ServiceController::class, 'index'])->name('services');
     Route::prefix('servicios')->name('services.')->group(function() {
-        Route::get('/', [ServiceController::class, 'index'])->name('index');
+        Route::get('/proyectos', [ServiceController::class, 'projects'])->name('projects');
+        Route::get('/gestoria', [ServiceController::class, 'management'])->name('management');
+        Route::get('/legal', [ServiceController::class, 'legal'])->name('legal');
+        Route::get('/uvie', [ServiceController::class, 'uvie'])->name('uvie');
+        Route::get('/mantenimiento', [ServiceController::class, 'maintenance'])->name('maintenance');
+        Route::get('/ahorro', [ServiceController::class, 'savings'])->name('savings');
     });
     
-    Route::prefix('proyectos')->name('projects.')->group(function() {
-        Route::get('/', [ProjectController::class, 'index'])->name('index');
-    });
+    Route::get('/products', [ProjectController::class, 'index'])->name('products');
 
     Route::get('contacto', [AppController::class, 'contact'])->name('contact');
     Route::get('donacion', [DonationController::class, 'index'])->name('donation');

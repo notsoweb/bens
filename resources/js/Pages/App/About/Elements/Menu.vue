@@ -5,7 +5,7 @@ import Item from './ItemMenu.vue';
 
 <template>
     <ul class="flex py-4 justify-center items-center space-x-8 text-gray-500">
-            <Item href="app.about.index">
+            <Item href="app.about">
                 Presentación
             </Item>
             <Item href="app.about.history">

@@ -1,5 +1,5 @@
 <script setup>
-import Layout from '@/Layouts/AppLayout.vue';
+import Layout from '@/Layouts/AppSpaceLayout.vue';
 import Menu from './Elements/Menu.vue';
 
 </script>

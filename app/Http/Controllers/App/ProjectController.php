@@ -19,7 +19,7 @@ class ProjectController extends VueController
      */
     public function __construct()
     {
-        $this->vueRoot('app.projects');
+        $this->vueRoot('app.products');
     }
 
     /**

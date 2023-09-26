@@ -1,5 +1,5 @@
 <script setup>
-import Layout from '@/Layouts/AppLayout.vue';
+import Layout from '@/Layouts/AppSpaceLayout.vue';
 import Menu from './Elements/Menu.vue';
 
 </script>
@@ -8,6 +8,7 @@ import Menu from './Elements/Menu.vue';
     <Layout>
         <Menu />
         <section class="space-y-4">
+            <h4 class="text-2xl font-bold text-gray-500">Valores</h4>
             <ul class="list-inside list-decimal space-y-4 text-gray-500 tracking-wide leading-relaxed">
                 <li>
                     <b>Rapidez: </b> Tenemos en cuenta que lo más importante son los tiempos de ejecución pues derivado de

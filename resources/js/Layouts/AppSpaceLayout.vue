@@ -20,7 +20,7 @@ defineProps({
     <div class="flex flex-col h-screen justify-between">
         <div class="flex flex-col">
             <Header />
-            <main class="bg-white flex flex-col cx-auto px-2 items-center">
+            <main class="bg-white flex flex-col cx-auto p-2 my-16 items-center">
                 <slot />
             </main>
         </div>
