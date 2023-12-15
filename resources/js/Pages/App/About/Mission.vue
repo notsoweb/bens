@@ -21,12 +21,13 @@ import Menu from './Elements/Menu.vue';
                     <h4 class="text-2xl font-bold text-gray-500">Visión</h4>
                     <div class="space-y-4 text-gray-500 tracking-wide leading-relaxed">
                         <p class="text-justify">
-                            Diversificar y ampliar continuamente nuestra gama de productos y servicios dentro del ramo
+                            Diversificar y ampliar continuamente nuestra gama de productos y servicios dentro del ramo 
                             eléctrico para satisfacer todas las necesidades en materia energética de nuestros clientes.
                         </p>
                         <p class="text-justify">
-                            Desarrollar todas nuestras instalaciones con los más altos estándares de calidad para que las mismas
-                            sean confiables y duraderas.
+                            Así como desarrollar nuestras instalaciones con los más altos estándares de calidad, para que 
+                            las mismas sean seguras y duraderas, generando confianza y reincidencia en nuestros 
+                            clientes.
                         </p>
                     </div>
                 </div>

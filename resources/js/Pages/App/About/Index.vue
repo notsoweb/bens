@@ -12,20 +12,21 @@ import Menu from './Elements/Menu.vue';
                 <h4 class="text-2xl font-bold text-gray-500">Presentación</h4>
                 <div class="space-y-4 text-gray-500 tracking-wide leading-relaxed">
                     <p class="text-justify">
-                        Somos una empresa del ramo de la construcción especializada en la proyección, gestión,
-                        ejecución y supervisión de instalaciones eléctricas.
+                        Somos una empresa del ramo de la construcción especializada en la proyección, gestión, 
+                        ejecución y supervisión de instalaciones eléctricas. 
                     </p>
                     <p class="text-justify">
-                        Desarrollamos proyectos eléctricos Comerciales, Industriales, Habitacionales, Turísticos,
-                        y de Urbanización e Infraestructura a lo largo de todo el país, para clientes del sector
-                        público y privado.
+                        Desarrollamos proyectos eléctricos comerciales, industriales, habitacionales, turísticos, y de 
+                        urbanización e infraestructura a lo largo de todo el país, para clientes del sector público y 
+                        privado.
                     </p>
                     <p class="text-justify">
-                        Trabajamos con empresas nacionales y extranjeras para contribuir de forma moderna y responsable
-                        en el crecimiento de la red eléctrica nacional.
+                        Coadyuvamos con empresas nacionales y extranjeras para contribuir de forma activa y 
+                        responsable en el crecimiento de la red eléctrica nacional.
                     </p>
                     <p class="text-justify">
-                        Ejecutamos obras en alta, media y baja tensión, cubriendo asi la generación, transmisión y distribución de energía.
+                        Ejecutamos obras en alta, media y baja tensión, cubriendo así la generación, transmisión y 
+                        distribución de energía.
                     </p>
                 </div>
             </div>

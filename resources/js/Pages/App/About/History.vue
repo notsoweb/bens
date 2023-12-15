@@ -12,19 +12,19 @@ import Menu from './Elements/Menu.vue';
                 <h4 class="text-2xl font-bold text-gray-500">Historia</h4>
                 <div class="space-y-4 text-gray-500 tracking-wide leading-relaxed">
                     <p class="text-justify">
-                        Somos una empresa que nace de la gran demanda que existe dentro del ramo de la
-                        construcción por contar con un brazo ejecutor que auxilie a las distintas desarrolladoras en
-                        sus necesidades de ingeniería eléctrica especializada, de forma responsable, confiable, honesta
-                        y eficaz.
+                        Somos una empresa que nace de la gran demanda que existe dentro del ramo de la 
+                        construcción por contar con un brazo ejecutor que auxilie a las distintas constructoras en sus 
+                        necesidades de ingeniería eléctrica especializada, de forma responsable, eficaz y confiable. 
                     </p>
                     <p class="text-justify">
-                        A lo largo de los años hemos ampliado nuestros campos de acción dentro del ramo energético para proveer
-                        a nuestros clientes de soluciones integrales que los ayuden a realizar sus proyectos de la manera más
-                        eficiente al poder contar con una amplia gama de servicios que los oriente en la toma de decisiones.
+                        A lo largo de los años hemos ampliado nuestro campo de acción dentro del ramo energético 
+                        para proveer a nuestros clientes, soluciones integrales que los ayuden a realizar sus proyectos 
+                        de la manera mas eficiente al poder contar con una gama amplia de servicios que los oriente 
+                        en la toma de decisiones. 
                     </p>
                     <p class="text-justify">
                         Nos regimos por un principio muy sencillo: <span class="underline">"Interiorizar los objetivos de nuestros clientes como nuestros"</span>.
-                        Esto nos ha permitido tener muy claros nuestros valores y lineas de acción.
+                        Lo cual nos ha permitido tener muy claros nuestros valores y lineas de acción.
                     </p>
                 </div>
             </div>

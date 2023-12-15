@@ -60,6 +60,35 @@ import Menu from './Elements/Menu.vue';
                         en este año se enfoco en una intensiva campaña comercial que resulta en el crecimiento que se espera tener a corto y mediano plazo.
                     </p>
                 </li>
+                <li>
+                    <h4 class="font-bold text-app-secondary">2019 Compromiso</h4>
+                    <p>
+                        A final de año tuvimos la suerte de volver realidad uno de nuestros más anhelados objetivos, 
+                        qué fue la constitución de nuestra Fundación. Tenemos clara la labor que queremos 
+                        desempeñar para contribuir a la sociedad, y nos hemos puesto grandes metas a futuro.
+                    </p>
+                </li>
+                <li>
+                    <h4 class="font-bold text-app-secondary">2020</h4>
+                    <p>
+                        Un año clave para nuestro país y el mundo en el que muchas empresas han enfrentado retos 
+                        muy grandes para poder seguir en pie. Gracias a la confianza que nos han depositado 
+                        nuestros clientes, hemos tenido gran oportunidad de seguir adelante con nuestros objetivos, 
+                        reafirmando así nuestro compromiso con ellos, por seguir entregando un servicio de calidad. 
+                    </p>
+                </li>
+                <li>
+                    <h4 class="font-bold text-app-secondary">2023</h4>
+                    <p>
+                        Hemos dejado atrás la irregularidad que devino del cierre del sector de la construcción por 
+                        motivos de salubridad, y nos hemos reinventado para poner en marcha los proyectos más 
+                        ambiciosos que hemos tenido oportunidad de participar hasta el momento.
+                    </p>
+                    <p>
+                        Estamos seguros que el crecimiento sostenido ha sido resultado de nuestra capacidad por 
+                        innovar y mantener nuestros estándares de calidad y servicio.
+                    </p>
+                </li>
             </ul>
         </section>
     </Layout>

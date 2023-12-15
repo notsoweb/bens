@@ -10,7 +10,7 @@ import Menu from './Elements/Menu.vue';
         <section class="grid grid-cols-1 lg:gap-4 lg:grid-cols-2">
             <div class="md:px-4 space-y-8">
                 <div class="space-y-4">
-                    <h4 class="text-2xl font-bold text-gray-500">Gestoría</h4>
+                    <h4 class="text-2xl font-bold text-gray-500">Gestiones</h4>
                     <div class="space-y-4 text-gray-500 tracking-wide leading-relaxed">
                         <p>
                             Todos los proyectos que realizamos son "llave en mano", por lo que auxiliamos a nuestros clientes en sus necesidades de inicio
@@ -18,8 +18,8 @@ import Menu from './Elements/Menu.vue';
                             parte de las instituciones que lo requieran.
                         </p>
                         <p>
-                            Llevamos una amplia relación de trabajo y colaboración con la Comisión Federal de Electricidad en sus distintas empresas y regiones
-                            a nivel nacional. Aunado a ello nuestros proyectos nos han exigido ampliar nuestras relaciones con la CRE, CENACE, SENER, FIDE, SEMARNAT y CONAGUA con
+                            Llevamos una amplia relación de trabajo y colaboración con la <b>Comisión Federal de Electricidad</b> en sus distintas empresas y regiones
+                            a nivel nacional. Aunado a ello nuestros proyectos nos han exigido ampliar nuestras relaciones con la <b>CRE, CENACE, SENER, FIDE, SEMARNAT</b> y <b>CONAGUA</b> con
                             las cuales interactuamos constantemente para desarrollar distintos proyectos.
                         </p>
                     </div>

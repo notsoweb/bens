@@ -11,20 +11,23 @@ import Menu from './Elements/Menu.vue';
             <h4 class="text-2xl font-bold text-gray-500">Valores</h4>
             <ul class="list-inside list-decimal space-y-4 text-gray-500 tracking-wide leading-relaxed">
                 <li class="text-justify">
-                    <b>Rapidez: </b> Tenemos en cuenta que lo más importante son los tiempos de ejecución pues derivado de
-                    los resultados los distintos proyectos ganan o pierden rentabilidad. Ya sea en la proyección, construcción o
-                    liberación de nuestros proyectos, en Bens Electric nos esforzamos por reducir los tiempos al mínimo posible
-                    para cumplir con los tiempos de entrega.
+                    <b>Confianza: </b> Nuestro mayor compromiso con nuestros clientes, es darles la certeza, que 
+                    nuestros proyectos siempre estarán rigurosamente apegados a las normas vigentes, para que las instalaciones que desarrollemos, cuenten con todos los elementos necesarios para tener 
+                    una red eléctrica duradera.
                 </li>
                 <li class="text-justify">
-                    <b>Viabilidad: </b> Sabemos que muchos proyectos se pueden definir dependiendo del costo de las instalaciones.
-                    Para ello nosotros siempre nos esmeramos en proponer y lograr ejecutar la obra que mayor rentabilidad deje a
-                    nuestros clientes.
+                    <b>Viabilidad: </b> Sabemos que las instalaciones eléctricas representan un costo significativo 
+                    dentro de un proyecto, por ello, es importante para nosotros buscar proponer distintas 
+                    alternativas que logren la mayor rentabilidad para nuestros clientes.
                 </li>
                 <li class="text-justify">
-                    <b>Seguridad: </b> La ingeniería eléctrica es un ramo que requiere de una preparación y conocimiento muy específico
-                    y especializado por los peligros que supone. Nuestros ingenieros y técnicos cuentan con los años de experiencia para
-                    asegurar  que las instalaciones que entregamos sean completamente confiables y seguras sin importar el paso del tiempo.
+                    <b>Seguridad: </b> La ingeniería eléctrica es un ramo que requiere de una preparación y 
+                    conocimiento muy específico y especializado por los peligros que supone. Nuestros ingenieros 
+                    y técnicos cuentan con años de experiencia para asegurar que las instalaciones que 
+                    entregamos sean completamente confiables y seguras no obstante el paso del tiempo.
+                    Para poder cumplir con nuestras premisas hemos dividido a nuestra empresa en distintas 
+                    áreas que se enfocan en distintos aspectos de un proyecto para que este se realice de forma 
+                    rápida, segura y viable.
                 </li>
             </ul>
             <div>

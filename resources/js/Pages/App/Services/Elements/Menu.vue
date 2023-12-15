@@ -12,7 +12,7 @@ import Item from './ItemMenu.vue';
                 Proyectos
             </Item>
             <Item href="app.services.management">
-                Gestoría
+                Gestiones
             </Item>
             <Item href="app.services.legal">
                 Asesoría legal
@@ -21,7 +21,7 @@ import Item from './ItemMenu.vue';
                 UVIE
             </Item>
             <Item href="app.services.maintenance">
-                Pruebas de mantenimientos
+                Pruebas y mantenimientos
             </Item>
             <Item href="app.services.savings">
                 Ahorro de energía

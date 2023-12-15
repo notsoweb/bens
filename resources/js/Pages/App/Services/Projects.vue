@@ -14,7 +14,7 @@ import Menu from './Elements/Menu.vue';
                     <div class="space-y-4 text-gray-500 tracking-wide leading-relaxed">
                         <p>
                             Diseñamos proyectos eficientes y operativos, para que nuestros clientes satisfagan sus demandas de energía
-                            a través de instalaciones seguras y económicas viables.
+                            a través de instalaciones seguras y económicamente viables.
                         </p>
                         <p>
                             Nuestro departamento de ingeniería trabaja arduamente para que las instalaciones propuestas siempre vayan de acuerdo
