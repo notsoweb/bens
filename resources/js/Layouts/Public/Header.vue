@@ -25,7 +25,7 @@ import Item from '@/Components/App/Skeleton/Header/Item.vue'
             <Item to="app.services">
                 Servicios
             </Item>
-            <Item to="app.products">
+            <Item to="app.products.index">
                 Productos
             </Item>
             <Item to="app.contact">

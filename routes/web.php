@@ -37,7 +37,10 @@ Route::name('app.')->group(function () {
         Route::get('/ahorro', [ServiceController::class, 'savings'])->name('savings');
     });
     
-    Route::get('/products', [ProjectController::class, 'index'])->name('products');
+    Route::prefix('products')->name('products.')->group(function() {
+        Route::get('/', [ProjectController::class, 'index'])->name('index');
+        Route::get('/{product}', [ProjectController::class, 'show'])->name('show');
+    });
 
     Route::get('contacto', [AppController::class, 'contact'])->name('contact');
     Route::get('donacion', [DonationController::class, 'index'])->name('donation');

@@ -29,4 +29,12 @@ class ProjectController extends VueController
     {
         return $this->vuew('index');
     }
+
+    /**
+     * Muestra un proyecto
+     */
+    public function show($product)
+    {
+        return $this->vuew('show');
+    }
 }
